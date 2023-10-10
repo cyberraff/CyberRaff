@@ -6,11 +6,7 @@ export const metadata = {
 	description:
 		'Ejeogo Olisaeloka Raphael (CyberRaff) | Fullstack Web Developer | ',
 };
-const theme = extendTheme({
-	fonts: {
-		comicSans: 'comicSans',
-	},
-});
+
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
