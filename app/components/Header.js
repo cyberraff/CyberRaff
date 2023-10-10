@@ -17,7 +17,7 @@ export default function Header() {
 		<Box
 			bgImage="linear(to-b, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('/IMG_1430.JPG') "
 			w='full'
-			h={'42rem'}
+			h={'35rem'}
 			bgSize={'cover'}
 			bgRepeat={'no-repeat'}
 			bgPosition={'center'}>
@@ -46,7 +46,7 @@ export default function Header() {
 					</Link>
 				</HStack>
 				<Stack pl={'2rem'}>
-					<Heading as='h3' pt={'12rem'} fontWeight={'thin'}>
+					<Heading as='h3' pt={'8rem'} fontWeight={'thin'}>
 						Hello, I am
 					</Heading>
 					<Heading as='h1' fontSize={'6xl'}>
@@ -56,7 +56,7 @@ export default function Header() {
 						as='h6'
 						mb={'8'}
 						fontSize={'xl'}
-						fontWeight={'thin'}>
+						fontWeight={'bold'}>
 						Full Stack Developer | Engineer
 					</Heading>
 					<Button
