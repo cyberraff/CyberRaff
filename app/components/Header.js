@@ -24,7 +24,7 @@ export default function Header() {
 			<Stack
 				// h={'full'}
 				textColor={'white'}
-				fontFamily='comicSans'
+				// fontFamily='comicSans'
 				justify={'center'}>
 				<HStack
 					justifyContent={'center'}
